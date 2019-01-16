@@ -51,7 +51,7 @@ for folder in folders:
         for i in range(40):
             image.add_tiff(
                 '%s/masktif/%s' % (os.path.basename(cell), masktiffs[i]),
-                c=0, z=0, t=i, ifd=0, planeCount=31)
+                c=0, z=0, t=i, ifd=0, planeCount=62)
         images.append(image)
 
         conctiffs = sorted(map(
