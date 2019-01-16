@@ -32,10 +32,10 @@ for folder in folders:
             os.path.basename, glob.glob("%s/rawtif/*" % cell)))
         assert len(rawtiffs) == 40
 
-        image = Image("Raw", 256, 256, 31, 3, 40, order="XYZCT", type="uint16")
-        image.add_channel("POI", 0)
-        image.add_channel("NUC", 0)
-        image.add_channel("NEG_Dextran", 0)
+        image = Image("Confocal", 256, 256, 31, 3, 40, order="XYZCT", type="uint16")
+        image.add_channel("POI", -1)
+        image.add_channel("NUC", -1)
+        image.add_channel("NEG_Dextran", -1)
         for i in range(40):
             image.add_tiff(
                 '%s/rawtif/%s' % (os.path.basename(cell), rawtiffs[i]),
@@ -45,8 +45,9 @@ for folder in folders:
         # Mask TIFFs
         masktiffs = sorted(map(
             os.path.basename, glob.glob("%s/masktif/*" % cell)))
-        image = Image("Mask", 256, 256, 31, 1, 40, order="XYZCT", type="int8")
-        image.add_channel("Mask", 0)
+        image = Image("Mask", 256, 256, 31, 2, 40, order="XYZCT", type="int8")
+        image.add_channel("NUC", -1)
+        image.add_channel("CELL", -1)
         for i in range(40):
             image.add_tiff(
                 '%s/masktif/%s' % (os.path.basename(cell), masktiffs[i]),
@@ -55,8 +56,10 @@ for folder in folders:
 
         conctiffs = sorted(map(
             os.path.basename, glob.glob("%s/conctif/*" % cell)))
-        image = Image("FCS", 256, 256, 31, 1, 40, order="XYZCT", type="float")
-        image.add_channel("Concentration", 0)
+        image = Image(
+            "Concentration", 256, 256, 31, 1, 40, order="XYZCT",
+             type="float")
+        image.add_channel("POI_conc", -1)
         for i in range(40):
             image.add_tiff(
                 '%s/conctif/%s' % (os.path.basename(cell), conctiffs[i]),
