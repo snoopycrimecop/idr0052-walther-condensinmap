@@ -1,2 +1,381 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<OME Creator="ome_model/experimental.py" UUID="urn:uuid:dbd75ac4-aeb5-428f-86e9-80bdbcbd7caa" xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd"><Image ID="Image:27" Name="Raw"><Pixels DimensionOrder="XYZCT" ID="Pixels:27:27" SizeC="3" SizeT="40" SizeX="256" SizeY="256" SizeZ="31" Type="uint16"><Channel Color="0" ID="Channel:45" Name="POI" SamplesPerPixel="1" /><Channel Color="0" ID="Channel:46" Name="NUC" SamplesPerPixel="1" /><Channel Color="0" ID="Channel:47" Name="NEG_Dextran" SamplesPerPixel="1" /><TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0001.tif">urn:uuid:da9c51a9-381d-49bd-8b17-4bd1cf7948af</UUID></TiffData><TiffData FirstC="0" FirstT="1" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0002.tif">urn:uuid:87a071dd-aab2-4709-8fbf-898719d4a16e</UUID></TiffData><TiffData FirstC="0" FirstT="2" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0003.tif">urn:uuid:7ee5b0d9-e813-418e-b031-cfcb3d1a0901</UUID></TiffData><TiffData FirstC="0" FirstT="3" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0004.tif">urn:uuid:a8b3e00d-c074-4f6f-8637-24540a7661fa</UUID></TiffData><TiffData FirstC="0" FirstT="4" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0005.tif">urn:uuid:e7bd15d8-0c2b-4398-b5d9-100caea77a60</UUID></TiffData><TiffData FirstC="0" FirstT="5" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0006.tif">urn:uuid:5c1c1ece-3d8c-40f6-a29e-8724cab4eb2d</UUID></TiffData><TiffData FirstC="0" FirstT="6" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0007.tif">urn:uuid:5f4881e1-c262-43d4-b71e-db3a7aacc07d</UUID></TiffData><TiffData FirstC="0" FirstT="7" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0008.tif">urn:uuid:3269d892-71b9-44b5-a2cb-b4d8665fbc33</UUID></TiffData><TiffData FirstC="0" FirstT="8" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0009.tif">urn:uuid:d68603c0-dc56-4e52-809a-1b915fd5ab00</UUID></TiffData><TiffData FirstC="0" FirstT="9" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0010.tif">urn:uuid:b3efc043-b40d-4757-8513-0a7d53d519e8</UUID></TiffData><TiffData FirstC="0" FirstT="10" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0011.tif">urn:uuid:0dcfa6f7-81b9-4c46-87f6-7639cb1bf275</UUID></TiffData><TiffData FirstC="0" FirstT="11" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0012.tif">urn:uuid:a4274387-8b38-441a-a4b1-a348c8811891</UUID></TiffData><TiffData FirstC="0" FirstT="12" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0013.tif">urn:uuid:34b0bca0-ffbc-4789-8e37-56c3ae43d47c</UUID></TiffData><TiffData FirstC="0" FirstT="13" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0014.tif">urn:uuid:60b8686f-5b7b-4b1f-acc1-ead9152910e7</UUID></TiffData><TiffData FirstC="0" FirstT="14" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0015.tif">urn:uuid:dfe270c6-a2f7-4c3f-b851-436e098aa0cc</UUID></TiffData><TiffData FirstC="0" FirstT="15" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0016.tif">urn:uuid:62c9abdb-5df5-4f22-924e-3472b12abc59</UUID></TiffData><TiffData FirstC="0" FirstT="16" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0017.tif">urn:uuid:917b738d-f283-4dd4-8a98-4ed40b25590b</UUID></TiffData><TiffData FirstC="0" FirstT="17" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0018.tif">urn:uuid:56ff54ce-2bd0-4b7d-a245-179c1ba09fe7</UUID></TiffData><TiffData FirstC="0" FirstT="18" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0019.tif">urn:uuid:49f3a133-2ce1-45d9-8139-3aeac4a00576</UUID></TiffData><TiffData FirstC="0" FirstT="19" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0020.tif">urn:uuid:75788333-81c9-4f2e-8537-1ddcee6ffa73</UUID></TiffData><TiffData FirstC="0" FirstT="20" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0021.tif">urn:uuid:29df2a28-8c2e-4bbd-a553-269851f598c1</UUID></TiffData><TiffData FirstC="0" FirstT="21" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0022.tif">urn:uuid:100f4b5a-af9b-46e4-a9e7-3bdc0a3cb2e4</UUID></TiffData><TiffData FirstC="0" FirstT="22" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0023.tif">urn:uuid:afa52763-9d5e-40b3-9641-2e731116cc7c</UUID></TiffData><TiffData FirstC="0" FirstT="23" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0024.tif">urn:uuid:1a1a75f4-c72e-4b28-987b-e13fe9f61153</UUID></TiffData><TiffData FirstC="0" FirstT="24" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0025.tif">urn:uuid:dc594c4d-94d4-423e-86f7-501ce3309894</UUID></TiffData><TiffData FirstC="0" FirstT="25" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0026.tif">urn:uuid:47ebfb8d-cbaf-4da6-b7bf-54080ad3f9ea</UUID></TiffData><TiffData FirstC="0" FirstT="26" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0027.tif">urn:uuid:91630e91-1bc9-453b-8acf-f67f07ee40f7</UUID></TiffData><TiffData FirstC="0" FirstT="27" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0028.tif">urn:uuid:fe6e9a08-9d78-4b83-b484-06653bfcedfb</UUID></TiffData><TiffData FirstC="0" FirstT="28" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0029.tif">urn:uuid:b47b1619-594e-472f-b81f-b77b24d7fe1a</UUID></TiffData><TiffData FirstC="0" FirstT="29" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0030.tif">urn:uuid:e36e2eed-0815-492b-ba61-8de02919b2c1</UUID></TiffData><TiffData FirstC="0" FirstT="30" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0031.tif">urn:uuid:6e7e106e-2e4c-45b7-a78a-6c57261ba1fb</UUID></TiffData><TiffData FirstC="0" FirstT="31" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0032.tif">urn:uuid:ff1abcb2-2ff5-4b97-994f-18538b6a5ba9</UUID></TiffData><TiffData FirstC="0" FirstT="32" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0033.tif">urn:uuid:c63d991f-91f7-494d-bfc6-c09c7b639348</UUID></TiffData><TiffData FirstC="0" FirstT="33" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0034.tif">urn:uuid:d76f8ab6-aa13-419c-9c18-4eff06c53cd0</UUID></TiffData><TiffData FirstC="0" FirstT="34" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0035.tif">urn:uuid:2d8f2a0b-514e-49f6-ad86-45f9e43435d8</UUID></TiffData><TiffData FirstC="0" FirstT="35" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0036.tif">urn:uuid:9a889bb5-ed34-4c14-935a-c831fddd0bb4</UUID></TiffData><TiffData FirstC="0" FirstT="36" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0037.tif">urn:uuid:c4ef19ae-5678-4787-b11b-5cb6c1eb2546</UUID></TiffData><TiffData FirstC="0" FirstT="37" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0038.tif">urn:uuid:9aed753e-9212-45b2-8a75-aea1037f3112</UUID></TiffData><TiffData FirstC="0" FirstT="38" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0039.tif">urn:uuid:484fa34a-88ab-476f-99a6-e2e6ed7d5540</UUID></TiffData><TiffData FirstC="0" FirstT="39" FirstZ="0" PlaneCount="93"><UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0040.tif">urn:uuid:2184b1d9-34ec-4584-ac2b-a74e0318cc8f</UUID></TiffData></Pixels></Image><Image ID="Image:28" Name="Mask"><Pixels DimensionOrder="XYZCT" ID="Pixels:28:28" SizeC="1" SizeT="40" SizeX="256" SizeY="256" SizeZ="31" Type="int8"><Channel Color="0" ID="Channel:48" Name="Mask" SamplesPerPixel="1" /><TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0001.tif">urn:uuid:a5d79c86-8ea0-4cf8-b65f-b0ad63f2f205</UUID></TiffData><TiffData FirstC="0" FirstT="1" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0002.tif">urn:uuid:23db1a63-7773-4f1f-9c70-744da842142d</UUID></TiffData><TiffData FirstC="0" FirstT="2" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0003.tif">urn:uuid:04cb4375-7576-493e-aae6-89a5640213b1</UUID></TiffData><TiffData FirstC="0" FirstT="3" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0004.tif">urn:uuid:d7412536-8e39-4c1a-afbe-f5e7a2b848e1</UUID></TiffData><TiffData FirstC="0" FirstT="4" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0005.tif">urn:uuid:12045fd7-1bf5-449c-8ae3-60fbd9610e93</UUID></TiffData><TiffData FirstC="0" FirstT="5" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0006.tif">urn:uuid:a89d9a0d-36b1-473b-9c7b-79886c474774</UUID></TiffData><TiffData FirstC="0" FirstT="6" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0007.tif">urn:uuid:72bb7623-fbbb-442d-a311-efdc9e1262ac</UUID></TiffData><TiffData FirstC="0" FirstT="7" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0008.tif">urn:uuid:21766144-e18d-4630-ba0f-5c7db31e4191</UUID></TiffData><TiffData FirstC="0" FirstT="8" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0009.tif">urn:uuid:8455388a-7ee6-4f68-928e-b13a3a42e126</UUID></TiffData><TiffData FirstC="0" FirstT="9" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0010.tif">urn:uuid:751f4d97-3620-4c34-814b-f52fdb9e8359</UUID></TiffData><TiffData FirstC="0" FirstT="10" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0011.tif">urn:uuid:03b65170-85d8-4c02-9bef-6e8e83d53683</UUID></TiffData><TiffData FirstC="0" FirstT="11" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0012.tif">urn:uuid:22250c54-f6bf-4658-812d-8674b6864a29</UUID></TiffData><TiffData FirstC="0" FirstT="12" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0013.tif">urn:uuid:3d09db1f-16fd-40fe-b949-66fecdbfe828</UUID></TiffData><TiffData FirstC="0" FirstT="13" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0014.tif">urn:uuid:a329274d-889e-407b-9399-3cb5e97e9391</UUID></TiffData><TiffData FirstC="0" FirstT="14" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0015.tif">urn:uuid:f66451bc-f9c8-458f-a8c8-a94ffc4ed6c8</UUID></TiffData><TiffData FirstC="0" FirstT="15" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0016.tif">urn:uuid:8ff2bd0f-8feb-4415-a3f3-4f2c7582b852</UUID></TiffData><TiffData FirstC="0" FirstT="16" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0017.tif">urn:uuid:36b26ae1-a646-4844-9db4-ff5f2ae5f96f</UUID></TiffData><TiffData FirstC="0" FirstT="17" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0018.tif">urn:uuid:3c3cf787-05f9-46e2-908d-c38176343eee</UUID></TiffData><TiffData FirstC="0" FirstT="18" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0019.tif">urn:uuid:7ea5f653-909b-4b91-b3a2-a501ce4e7fe8</UUID></TiffData><TiffData FirstC="0" FirstT="19" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0020.tif">urn:uuid:62bc8a65-ecb7-4148-ba0f-17ead5d25c9d</UUID></TiffData><TiffData FirstC="0" FirstT="20" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0021.tif">urn:uuid:560854af-9d0b-4934-a60d-1d63ac8d10a5</UUID></TiffData><TiffData FirstC="0" FirstT="21" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0022.tif">urn:uuid:9c4257b7-8d0d-47ca-99d7-77fe5e1947c7</UUID></TiffData><TiffData FirstC="0" FirstT="22" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0023.tif">urn:uuid:cca86bf5-da35-48d0-b117-8bd8c3bbd44c</UUID></TiffData><TiffData FirstC="0" FirstT="23" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0024.tif">urn:uuid:5e6910e8-5819-455f-9714-b713cd8ec7cd</UUID></TiffData><TiffData FirstC="0" FirstT="24" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0025.tif">urn:uuid:cb562abf-f995-447f-a7c2-74a7332b1f7a</UUID></TiffData><TiffData FirstC="0" FirstT="25" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0026.tif">urn:uuid:e34c8710-796a-49e2-bd11-50a763c9e411</UUID></TiffData><TiffData FirstC="0" FirstT="26" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0027.tif">urn:uuid:ce75c41d-3c71-45f3-bed6-05658ab3a395</UUID></TiffData><TiffData FirstC="0" FirstT="27" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0028.tif">urn:uuid:7a8db6d4-21d0-49ff-ada3-390bcd33316e</UUID></TiffData><TiffData FirstC="0" FirstT="28" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0029.tif">urn:uuid:2a9381b9-1071-4987-8b61-2df2e285ee24</UUID></TiffData><TiffData FirstC="0" FirstT="29" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0030.tif">urn:uuid:134a734c-57f8-489a-bb04-c86f15520354</UUID></TiffData><TiffData FirstC="0" FirstT="30" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0031.tif">urn:uuid:c7ea27c8-1021-44ac-a63d-2276072b4517</UUID></TiffData><TiffData FirstC="0" FirstT="31" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0032.tif">urn:uuid:1912736a-9433-4bcf-a2d6-bc7a64b3962b</UUID></TiffData><TiffData FirstC="0" FirstT="32" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0033.tif">urn:uuid:40d3ae14-f7d9-4c93-8c0b-a5dd2ddf51c1</UUID></TiffData><TiffData FirstC="0" FirstT="33" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0034.tif">urn:uuid:456beaff-53f5-4fc8-bf62-540787218a96</UUID></TiffData><TiffData FirstC="0" FirstT="34" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0035.tif">urn:uuid:a8ed8b3a-4801-48d8-93ba-01055df23b17</UUID></TiffData><TiffData FirstC="0" FirstT="35" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0036.tif">urn:uuid:0eab5b91-7e71-4991-ad63-aa3705e8e263</UUID></TiffData><TiffData FirstC="0" FirstT="36" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0037.tif">urn:uuid:87961c87-597d-47bb-9408-1851e9eef5dd</UUID></TiffData><TiffData FirstC="0" FirstT="37" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0038.tif">urn:uuid:4d463599-04c1-444b-a486-c0ac2ef267a8</UUID></TiffData><TiffData FirstC="0" FirstT="38" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0039.tif">urn:uuid:e39b8ba8-a385-4412-a5a3-94195e5b613f</UUID></TiffData><TiffData FirstC="0" FirstT="39" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0040.tif">urn:uuid:c089174a-03e9-4ed4-bd12-c91cd6782aa7</UUID></TiffData></Pixels></Image><Image ID="Image:29" Name="FCS"><Pixels DimensionOrder="XYZCT" ID="Pixels:29:29" SizeC="1" SizeT="40" SizeX="256" SizeY="256" SizeZ="31" Type="float"><Channel Color="0" ID="Channel:49" Name="Concentration" SamplesPerPixel="1" /><TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0001.tif">urn:uuid:3c7e134f-d3ed-4d27-8afc-b4cb799559ae</UUID></TiffData><TiffData FirstC="0" FirstT="1" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0002.tif">urn:uuid:60c765a1-9029-4745-b133-70d211e00643</UUID></TiffData><TiffData FirstC="0" FirstT="2" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0003.tif">urn:uuid:12d79613-8eef-4feb-be5f-8803fc961d2d</UUID></TiffData><TiffData FirstC="0" FirstT="3" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0004.tif">urn:uuid:2a007c77-a471-4c90-8a33-c2befa8d96ea</UUID></TiffData><TiffData FirstC="0" FirstT="4" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0005.tif">urn:uuid:0489b6ea-0a0a-497d-a653-2c5c97315a55</UUID></TiffData><TiffData FirstC="0" FirstT="5" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0006.tif">urn:uuid:9dd31045-298e-4eba-afd3-680d3d011831</UUID></TiffData><TiffData FirstC="0" FirstT="6" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0007.tif">urn:uuid:5773fa9e-6caf-4056-9edf-6e4feff4bec6</UUID></TiffData><TiffData FirstC="0" FirstT="7" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0008.tif">urn:uuid:2f644289-7ac6-4789-bb76-36a507e21b16</UUID></TiffData><TiffData FirstC="0" FirstT="8" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0009.tif">urn:uuid:899ec3c2-184b-4d16-86c3-bbe0d1f4a055</UUID></TiffData><TiffData FirstC="0" FirstT="9" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0010.tif">urn:uuid:6698cc42-e8df-42cc-94ca-0edfefbeb7c4</UUID></TiffData><TiffData FirstC="0" FirstT="10" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0011.tif">urn:uuid:f32dae8d-7d4f-4854-bfe8-2c8c43f4c46b</UUID></TiffData><TiffData FirstC="0" FirstT="11" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0012.tif">urn:uuid:749d6169-cc68-467c-a540-c2403905fc61</UUID></TiffData><TiffData FirstC="0" FirstT="12" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0013.tif">urn:uuid:312b6615-4e7d-42f0-94f9-f986f3d7aad2</UUID></TiffData><TiffData FirstC="0" FirstT="13" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0014.tif">urn:uuid:8736d5f3-cd35-430f-b19a-5f23a6e9b955</UUID></TiffData><TiffData FirstC="0" FirstT="14" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0015.tif">urn:uuid:73f60d1f-0e48-4587-b208-fac469fcf66a</UUID></TiffData><TiffData FirstC="0" FirstT="15" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0016.tif">urn:uuid:f50b2988-0b3d-402c-a01b-f3cfc2bb852c</UUID></TiffData><TiffData FirstC="0" FirstT="16" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0017.tif">urn:uuid:2d7ce21b-6334-44ba-8595-3026f1730917</UUID></TiffData><TiffData FirstC="0" FirstT="17" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0018.tif">urn:uuid:c1ec364f-38f4-4eda-a5e0-6a956c8d3882</UUID></TiffData><TiffData FirstC="0" FirstT="18" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0019.tif">urn:uuid:b3b6c214-b29a-44c7-ae2e-f590efa0df20</UUID></TiffData><TiffData FirstC="0" FirstT="19" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0020.tif">urn:uuid:51d19750-0d57-4495-b619-53b81985e405</UUID></TiffData><TiffData FirstC="0" FirstT="20" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0021.tif">urn:uuid:eabb76ad-0be4-474f-96be-598cd9f1deef</UUID></TiffData><TiffData FirstC="0" FirstT="21" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0022.tif">urn:uuid:7b635a88-df09-4fdf-b7f1-ab6f454a103d</UUID></TiffData><TiffData FirstC="0" FirstT="22" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0023.tif">urn:uuid:87fad34b-3551-4887-8047-52d2fc7b79c7</UUID></TiffData><TiffData FirstC="0" FirstT="23" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0024.tif">urn:uuid:ea2d8ac5-1dd5-45a3-b828-057de835b9b1</UUID></TiffData><TiffData FirstC="0" FirstT="24" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0025.tif">urn:uuid:73e0ee95-4268-4ff7-a6ae-dfcccc9a1b5b</UUID></TiffData><TiffData FirstC="0" FirstT="25" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0026.tif">urn:uuid:b13fe17a-288d-42d6-aac0-c563cee7f3b8</UUID></TiffData><TiffData FirstC="0" FirstT="26" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0027.tif">urn:uuid:3fd17d37-ed53-479c-9984-74e6e1b077eb</UUID></TiffData><TiffData FirstC="0" FirstT="27" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0028.tif">urn:uuid:3bbc3d0b-b639-4b6d-a7bd-51bea15549bc</UUID></TiffData><TiffData FirstC="0" FirstT="28" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0029.tif">urn:uuid:c7d3ffc2-1160-4ca7-8c71-7bc1d928c52c</UUID></TiffData><TiffData FirstC="0" FirstT="29" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0030.tif">urn:uuid:ac46d188-9edc-431a-8bc9-31f1584cfdaa</UUID></TiffData><TiffData FirstC="0" FirstT="30" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0031.tif">urn:uuid:623769cb-bb30-4c86-a602-25ccf89cf29d</UUID></TiffData><TiffData FirstC="0" FirstT="31" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0032.tif">urn:uuid:926f6dc4-1eda-427b-b941-380d5af10486</UUID></TiffData><TiffData FirstC="0" FirstT="32" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0033.tif">urn:uuid:cd3e5bcf-3fef-48c1-97b7-98faa716b681</UUID></TiffData><TiffData FirstC="0" FirstT="33" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0034.tif">urn:uuid:c63d5c58-a863-435f-a276-49211dd40a75</UUID></TiffData><TiffData FirstC="0" FirstT="34" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0035.tif">urn:uuid:81c10db7-b9ba-4788-98cb-4da2d0cf600a</UUID></TiffData><TiffData FirstC="0" FirstT="35" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0036.tif">urn:uuid:d852e0bb-dafe-4d3d-a099-10e2e8b9f6f7</UUID></TiffData><TiffData FirstC="0" FirstT="36" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0037.tif">urn:uuid:9193438a-3136-40ab-aa59-b4af2747ddb7</UUID></TiffData><TiffData FirstC="0" FirstT="37" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0038.tif">urn:uuid:63a6b791-3a5e-40c4-881f-78c6a6de9364</UUID></TiffData><TiffData FirstC="0" FirstT="38" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0039.tif">urn:uuid:23527dbe-46f8-4cb5-94d4-3d65056aa839</UUID></TiffData><TiffData FirstC="0" FirstT="39" FirstZ="0" PlaneCount="31"><UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0040.tif">urn:uuid:3b92bd3d-0581-42aa-9133-c14cacf0dc10</UUID></TiffData></Pixels></Image></OME>
+<?xml version="1.0" encoding="UTF-8"?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:4953f23e-eeab-4c05-8d9f-2711ded841b7" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:27" Name="Confocal">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:27:27" SizeC="3" SizeT="40" SizeX="256" SizeY="256" SizeZ="31" Type="uint16">
+      <Channel Color="-1" ID="Channel:54" Name="POI" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:55" Name="NUC" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:56" Name="NEG_Dextran" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0001.tif">urn:uuid:de766f2b-61a0-48df-8432-01ee4536a0b9</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="1" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0002.tif">urn:uuid:3e10bb6b-6601-4b25-8df9-48a5629f4972</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="2" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0003.tif">urn:uuid:736d5af4-857b-4ce9-8d53-348814558eb4</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="3" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0004.tif">urn:uuid:dd9d0cc1-019d-424e-9ecd-58d64cdac160</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="4" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0005.tif">urn:uuid:3e813c88-b521-4626-991b-c6064fef54e4</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="5" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0006.tif">urn:uuid:8cf995f3-2292-4d33-8970-67d9abe2d6f5</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="6" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0007.tif">urn:uuid:0ddd6696-e318-4eb6-9a80-3a993d315380</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="7" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0008.tif">urn:uuid:a00dc554-f4e8-4e9b-9148-4bb377e030ed</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="8" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0009.tif">urn:uuid:39455194-0fe5-4107-9a0c-e4ef1c18f06d</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="9" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0010.tif">urn:uuid:755a3e1e-4adc-4f57-b1f4-9fbf9c247c5e</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="10" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0011.tif">urn:uuid:6b670b54-4f7a-4396-8663-c567c1c03161</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="11" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0012.tif">urn:uuid:fe73b763-bd39-42d6-965c-f3fa6c12da1d</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="12" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0013.tif">urn:uuid:5088b00a-f61a-4055-89b4-78fa2d9bd7d7</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="13" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0014.tif">urn:uuid:26c280bb-f248-49cd-ac8d-baf3d80310f0</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="14" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0015.tif">urn:uuid:b7de8db3-3598-4d91-8631-7640078b23af</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="15" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0016.tif">urn:uuid:10d18d38-2681-4baf-8ced-5416fdae2745</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="16" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0017.tif">urn:uuid:db7ffa07-65f4-45b4-a7c4-316ba6ae576e</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="17" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0018.tif">urn:uuid:57fb04cb-3f59-4518-ab02-8d1fd146f9e9</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="18" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0019.tif">urn:uuid:8bccf143-3052-488d-b432-76c1b0d97281</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="19" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0020.tif">urn:uuid:4ab38796-d8c9-4ed8-b246-589413e6f674</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="20" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0021.tif">urn:uuid:b7b59d58-8eb3-42da-91bb-2a42d5f5f588</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="21" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0022.tif">urn:uuid:70bdcdad-1bc4-44f7-8c6b-262195af19fa</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="22" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0023.tif">urn:uuid:19541687-74b2-4406-9e98-a6916919b20f</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="23" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0024.tif">urn:uuid:cdf2a490-7c40-44e0-a733-a71de1e12d43</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="24" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0025.tif">urn:uuid:bc75e146-059f-4b6a-9012-c82872f798e2</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="25" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0026.tif">urn:uuid:b82e4715-42a3-4211-8026-0af2165d5693</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="26" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0027.tif">urn:uuid:b310d392-d597-48f5-8ae0-21d683caa261</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="27" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0028.tif">urn:uuid:1d8490f1-1b96-40bd-bd5f-2642e6f95e0e</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="28" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0029.tif">urn:uuid:f2d53d8b-5b79-4a22-8f18-8d22e954dd26</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="29" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0030.tif">urn:uuid:2d4cf090-d868-4e75-94bf-3f31dcb8f626</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="30" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0031.tif">urn:uuid:29bfcf19-b2fb-4f0d-8abd-e56cfe81473b</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="31" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0032.tif">urn:uuid:70e5d4e6-9c36-4721-9e96-d013e56b9f11</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="32" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0033.tif">urn:uuid:230f5cbc-8978-40e7-a6a9-353cb264bd0e</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="33" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0034.tif">urn:uuid:6ab6e4a1-2fd8-4582-9cfe-541925729ebb</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="34" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0035.tif">urn:uuid:ca08a258-d3e8-48ec-a161-abb3a9592315</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="35" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0036.tif">urn:uuid:1877a898-4dd9-44fc-8750-c36bce278cb3</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="36" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0037.tif">urn:uuid:b90767b8-475b-419c-9526-34cd514addda</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="37" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0038.tif">urn:uuid:64c17161-a0e9-4ee1-b421-452d2b19237f</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="38" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0039.tif">urn:uuid:b50feb8a-2782-451c-a7ef-46d282c66f10</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="39" FirstZ="0" PlaneCount="93">
+        <UUID FileName="cell0029_R0020/rawtif/TR1_2_W0001_P0010_T0040.tif">urn:uuid:b839e0fd-879c-48b2-a533-e67cbd5f12df</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:28" Name="Mask">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:28:28" SizeC="2" SizeT="40" SizeX="256" SizeY="256" SizeZ="31" Type="int8">
+      <Channel Color="-1" ID="Channel:57" Name="NUC" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:58" Name="CELL" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0001.tif">urn:uuid:3e8a9e77-5aba-4f81-aace-f61fa6f278ee</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="1" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0002.tif">urn:uuid:b2540c92-fbe7-4d58-8bc9-ea2d742c74bc</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="2" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0003.tif">urn:uuid:c840af21-eb71-428a-b4ad-1944f7c494c0</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="3" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0004.tif">urn:uuid:27a70782-a176-4fcf-bd0b-6be81817ea5e</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="4" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0005.tif">urn:uuid:6d0ee70f-70d5-4561-8308-9dae3f5007d7</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="5" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0006.tif">urn:uuid:ce605a05-ac46-4545-b907-ca54495530f8</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="6" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0007.tif">urn:uuid:ca7377bd-d28f-461f-b203-dc9dab4e1e4c</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="7" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0008.tif">urn:uuid:50cdfb2e-d548-481b-a296-29c5631b02a7</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="8" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0009.tif">urn:uuid:f5ab1cc3-0359-449f-968b-a5614b134208</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="9" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0010.tif">urn:uuid:75eb1805-af20-4b5c-913e-0a36e2cdc875</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="10" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0011.tif">urn:uuid:f43b9e20-77c8-446b-95d1-25f12405fcad</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="11" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0012.tif">urn:uuid:1ae6c5d2-8fc2-41df-b747-2b59f8d60353</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="12" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0013.tif">urn:uuid:0c43ec49-a273-40c6-9d7d-4bdf5f2e7e66</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="13" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0014.tif">urn:uuid:6a4babd2-c17f-426d-a3df-3e436285c201</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="14" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0015.tif">urn:uuid:18655db6-f279-47f7-96d2-402dd43b88c6</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="15" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0016.tif">urn:uuid:cf520bc0-32c0-4f02-8160-874b7c3fbe4e</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="16" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0017.tif">urn:uuid:94316cb9-8842-4b83-b134-efdc9b6f820a</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="17" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0018.tif">urn:uuid:2ba72580-e7b2-4304-b601-69b5ac759ce6</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="18" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0019.tif">urn:uuid:37a85128-9bf3-49cb-8520-629a3978a564</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="19" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0020.tif">urn:uuid:0cfe492d-964f-40ab-bcda-3938dc18c283</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="20" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0021.tif">urn:uuid:f029fcd6-63a9-4297-bc7c-ead28d3b280b</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="21" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0022.tif">urn:uuid:4bf22b93-d740-4031-893c-f626f0025277</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="22" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0023.tif">urn:uuid:573398d2-88f7-4d00-a449-24051a38557b</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="23" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0024.tif">urn:uuid:1ad73ac6-96dc-4763-acff-130afe2f4f2c</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="24" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0025.tif">urn:uuid:89924f12-4025-403a-9ee7-d659fa11f55a</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="25" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0026.tif">urn:uuid:8bee6d02-e76a-4699-8d8f-3836162da8c7</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="26" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0027.tif">urn:uuid:4dddfc70-091b-4e9d-ab14-efbd689fd7e8</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="27" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0028.tif">urn:uuid:8bf7f8a0-74c3-414e-93a9-ea61e3f9cddb</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="28" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0029.tif">urn:uuid:61a53c1d-59d9-4f56-b4d8-e06c7ef35a24</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="29" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0030.tif">urn:uuid:303a8d06-cd3d-4571-8ecb-655d00fe03d1</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="30" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0031.tif">urn:uuid:748e645d-7573-49d1-a750-1fe16e96539f</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="31" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0032.tif">urn:uuid:e0c06eca-dcfa-41db-93b7-93319b3f4159</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="32" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0033.tif">urn:uuid:f3c3115e-dd21-4043-a412-1f19f2afa2cb</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="33" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0034.tif">urn:uuid:696093db-fa66-43ca-afda-9ebede149e98</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="34" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0035.tif">urn:uuid:e977a314-5248-4da7-bf18-2ca1c9cb82ab</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="35" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0036.tif">urn:uuid:43ef67ec-2c6b-40ea-93e4-fc35e1242ab7</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="36" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0037.tif">urn:uuid:8e31c365-c034-44d7-817f-8888a64b8319</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="37" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0038.tif">urn:uuid:95146a51-d883-4ee2-a4aa-320e3386c1f4</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="38" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0039.tif">urn:uuid:86fbf979-9c3f-4957-b3b0-474688ba9b1c</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="39" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/masktif/TR1_2_W0001_P0010_T0040.tif">urn:uuid:b9f226e1-8231-463b-b822-cb55ccd30228</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:29" Name="Concentration">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:29:29" SizeC="1" SizeT="40" SizeX="256" SizeY="256" SizeZ="31" Type="float">
+      <Channel Color="-1" ID="Channel:59" Name="POI_conc" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0001.tif">urn:uuid:e4b54e75-635c-402a-8d89-2fff48b26265</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="1" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0002.tif">urn:uuid:f280457f-2af3-48ab-9b0c-bed09c040b3b</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="2" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0003.tif">urn:uuid:c5184e97-8ab3-48de-b193-f2047cd93c81</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="3" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0004.tif">urn:uuid:8c10f8bb-3a60-4654-9241-b22750694b66</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="4" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0005.tif">urn:uuid:9cee6b43-72ff-423a-8d49-cb506b5b50b1</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="5" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0006.tif">urn:uuid:60501569-8f99-496b-ab6b-4d8fa33280a0</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="6" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0007.tif">urn:uuid:00510d96-6b4d-4d36-b9d9-49845c4565e7</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="7" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0008.tif">urn:uuid:c3fb1a31-9150-490c-92df-1e078617210d</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="8" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0009.tif">urn:uuid:e92a33c5-b925-4aeb-a26e-7217c0af8eb5</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="9" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0010.tif">urn:uuid:c9f4e89f-b257-4bc4-9f39-2620bda0675d</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="10" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0011.tif">urn:uuid:1a991ca9-fe2d-4b16-af11-49e8589b7adf</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="11" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0012.tif">urn:uuid:8ca4e033-d188-4de9-9928-939a90631371</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="12" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0013.tif">urn:uuid:3a527e6f-df00-4b20-b67e-9937169c4709</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="13" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0014.tif">urn:uuid:0cba9ba9-a6cf-475b-84b5-4cc7e447b0a9</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="14" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0015.tif">urn:uuid:17e29f09-8907-41d7-b550-09a42dcb7074</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="15" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0016.tif">urn:uuid:08d0d0ff-8b36-48ac-96b2-bdea2a1ca779</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="16" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0017.tif">urn:uuid:4a437949-4ffc-4780-b367-ebd6cc8234c2</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="17" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0018.tif">urn:uuid:ce288cef-df79-4ec6-ab14-468e4151e5fb</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="18" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0019.tif">urn:uuid:86d51614-9c77-4ac4-89c3-d05f6482d338</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="19" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0020.tif">urn:uuid:4ecca571-da8d-44e3-b9fa-65867c8921b3</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="20" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0021.tif">urn:uuid:22525c1e-41a9-4cee-a946-30b48f654c1a</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="21" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0022.tif">urn:uuid:3b96885d-e162-4d99-82ff-93568da0da24</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="22" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0023.tif">urn:uuid:f8d41aed-81c8-41b1-944b-b2af62e0d1bd</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="23" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0024.tif">urn:uuid:effb5e9d-bc62-450d-a4df-2a94b8fbcd5a</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="24" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0025.tif">urn:uuid:da1850a0-60e9-446b-9514-8fbebb376494</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="25" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0026.tif">urn:uuid:e83d201a-8eba-42ca-a85b-fd9ffc0f138f</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="26" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0027.tif">urn:uuid:2d688e60-9790-48ee-905f-eaaa53b550ff</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="27" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0028.tif">urn:uuid:88de8a0f-cf12-4a74-ba67-b8f0b6d62b61</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="28" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0029.tif">urn:uuid:4f090263-04c9-4913-b7cc-9579caa8c4b2</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="29" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0030.tif">urn:uuid:0a708c3d-3c5b-44b0-9a9b-75809d2b7792</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="30" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0031.tif">urn:uuid:923de0b7-e551-4084-aa2a-9faa8897921d</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="31" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0032.tif">urn:uuid:e1e6efc4-3dcc-4dfa-b6ce-d546dc64ce22</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="32" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0033.tif">urn:uuid:e674048f-c684-4206-84b7-e2f055bdfc64</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="33" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0034.tif">urn:uuid:66f6699c-2035-4365-ac68-c21de21b7188</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="34" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0035.tif">urn:uuid:52b92b6a-64af-4bcd-af9b-f4e638668e27</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="35" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0036.tif">urn:uuid:10e39d08-8275-4261-bf55-be5f3b4c324c</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="36" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0037.tif">urn:uuid:4176f210-9878-40bf-9614-b87b7f027f5c</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="37" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0038.tif">urn:uuid:fdf2cff0-ee9a-4326-bb95-5c72842aa0f8</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="38" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0039.tif">urn:uuid:f51c5e70-1640-45f3-9992-d91692d06310</UUID>
+      </TiffData>
+      <TiffData FirstC="0" FirstT="39" FirstZ="0" PlaneCount="31">
+        <UUID FileName="cell0029_R0020/conctif/TR1_2_W0001_P0010_T0040.tif">urn:uuid:8cf05045-6838-45ff-b664-8f3d33970e12</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>
