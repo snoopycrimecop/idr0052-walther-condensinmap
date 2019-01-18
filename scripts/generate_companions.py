@@ -32,7 +32,8 @@ for folder in folders:
             os.path.basename, glob.glob("%s/rawtif/*" % cell)))
         assert len(rawtiffs) == 40
 
-        image = Image("Confocal", 256, 256, 31, 3, 40, order="XYZCT", type="uint16")
+        image = Image(
+            "Confocal", 256, 256, 31, 3, 40, order="XYZCT", type="uint16")
         image.add_channel("POI", -1)
         image.add_channel("NUC", -1)
         image.add_channel("NEG_Dextran", -1)
@@ -58,7 +59,7 @@ for folder in folders:
             os.path.basename, glob.glob("%s/conctif/*" % cell)))
         image = Image(
             "Concentration", 256, 256, 31, 1, 40, order="XYZCT",
-             type="float")
+            type="float")
         image.add_channel("POI_conc", -1)
         for i in range(40):
             image.add_tiff(
