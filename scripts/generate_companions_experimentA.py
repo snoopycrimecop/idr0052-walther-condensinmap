@@ -15,7 +15,8 @@ IMAGE_TYPES = {
     'conc': 'conctif',
 }
 
-BASE_DIRECTORY = join(dirname(abspath(dirname(sys.argv[0]))), 'companions')
+BASE_DIRECTORY = join(
+    dirname(abspath(dirname(sys.argv[0]))), 'experimentA', 'companions')
 folders = [join(BASE_DIRECTORY, x) for x in os.listdir(BASE_DIRECTORY)]
 folders = sorted(filter(os.path.isdir, folders))
 logging.info("Found %g folders under %s" % (len(folders), BASE_DIRECTORY))
