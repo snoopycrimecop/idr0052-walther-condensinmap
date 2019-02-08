@@ -1,0 +1,14 @@
+---
+continue: true
+transfer: "ln_s"
+exclude: "clientpath"
+skip: "checksum"
+logprefix: "logs/"
+output: "yaml"
+parallel_fileset: "8"
+parallel_upload: "8"
+path: "idr0052-experimentC-filePaths.tsv"
+readers: "readers.txt"
+columns:
+  - target
+  - path
