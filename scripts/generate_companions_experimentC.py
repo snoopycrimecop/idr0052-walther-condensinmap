@@ -7,6 +7,7 @@ from os.path import dirname, join, abspath
 from ome_model.experimental import Image, create_companion
 import logging
 import sys
+from PIL import Image as PIL_Image
 
 DEBUG = int(os.environ.get("DEBUG", logging.INFO))
 
@@ -27,19 +28,25 @@ for folder in folders:
         assert len(rawtiffs) == 2
 
         # Image Dimensions
-        # TODO: use pylibtiff to determine sizeX and sizeY using e.g. Hoechst
-        SIZE_X = 142
-        SIZE_Y = 236
-        SIZE_Z = 29
+        img = PIL_Image.open(join(cell, rawtiffs[1]))
+        (size_x, size_y) = img.size
+        size_z = 0
+        while True:
+            try:
+                img.seek(size_z)
+            except EOFError:
+                break
+            size_z += 1
 
         # Create 2-channel image
         image = Image(
-            cell, SIZE_X, SIZE_Y, SIZE_Z, 2, 1, order="XYZCT", type="uint16")
+            cell, size_x, size_y, size_z, 2, 1, order="XYZCT", type="uint16")
         image.add_channel("Hoechst", -1)
         image.add_channel("Condensin", -1)
 
         for i in range(len(rawtiffs)):
             image.add_tiff("%s/%s" % (
                 os.path.basename(cell), rawtiffs[i]), c=i, z=0, t=0, ifd=0,
-                planeCount=SIZE_Z)
+                planeCount=size_z)
+        print cell
         create_companion(images=[image], out=cell + '.companion.ome')
