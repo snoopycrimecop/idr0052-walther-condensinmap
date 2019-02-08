@@ -58,4 +58,4 @@ for folder in folders:
              cell + '.companion.ome'],
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE)
-        (output, error_output) = proc.communicate
+        (output, error_output) = proc.communicate()
