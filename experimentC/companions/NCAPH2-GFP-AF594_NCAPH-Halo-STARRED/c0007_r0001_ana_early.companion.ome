@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:4c515b7e-2e43-4590-8107-2cdc2ed2d66f" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:81" Name="c0007_r0001_ana_early">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:81:81" SizeC="2" SizeT="1" SizeX="146" SizeY="91" SizeZ="13" Type="uint16">
+      <Channel Color="-1" ID="Channel:162" Name="Hoechst" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:163" Name="Condensin" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="13">
+        <UUID FileName="c0007_r0001_ana_early/c0007_r0001_Cond1-H_20170913_NCAPH2-GFP-AF594_NCAPH-Halo-STARRED_2_ana_early4_region1_Ch2.tif">urn:uuid:894edd61-6577-4a40-83b0-350d4425d019</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="13">
+        <UUID FileName="c0007_r0001_ana_early/c0007_r0001_Cond2-H2_20170913_NCAPH2-GFP-AF594_NCAPH-Halo-STARRED_2_ana_early4_region1_Ch1.tif">urn:uuid:e8826867-45e8-4d7a-8f89-22e7eae9e421</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>

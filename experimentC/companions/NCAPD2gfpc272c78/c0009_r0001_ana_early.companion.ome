@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:4c515b7e-2e43-4590-8107-2cdc2ed2d66f" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:0" Name="c0009_r0001_ana_early">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="2" SizeT="1" SizeX="145" SizeY="207" SizeZ="29" Type="uint16">
+      <Channel Color="-1" ID="Channel:0" Name="Hoechst" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:1" Name="Condensin" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
+        <UUID FileName="c0009_r0001_ana_early/c0009_r0001_Chr_20170831_Samples20170818_NCAPD2-mEGFP_C_ana-early1_region1_Hoechst.tif">urn:uuid:ab6249a3-1c45-4a29-901b-a67a41e64178</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
+        <UUID FileName="c0009_r0001_ana_early/c0009_r0001_Cond1-D2_20170831_Samples20170818_NCAPD2-mEGFP_C_ana-early1_region1_Condensin.tif">urn:uuid:f28f36a1-82c5-46a3-84fc-27f92d73e7af</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>
