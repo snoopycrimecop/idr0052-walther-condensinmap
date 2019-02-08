@@ -54,7 +54,7 @@ for folder in folders:
         image = Image(
             os.path.basename(cell), size_x, size_y, size_z, 2, 1,
             order="XYZCT", type="uint16")
-        (n1, c1, n2, c2) = CHANNEL_MAPPING[os.path.basename(cell)]
+        (n1, c1, n2, c2) = CHANNEL_MAPPING[os.path.basename(folder)]
         image.add_channel(n1, c1)
         image.add_channel(n2, c2)
 
