@@ -7,6 +7,7 @@ from os.path import dirname, join, abspath
 from ome_model.experimental import Image, create_companion
 import logging
 import sys
+import subprocess
 from PIL import Image as PIL_Image
 
 DEBUG = int(os.environ.get("DEBUG", logging.INFO))
@@ -40,7 +41,8 @@ for folder in folders:
 
         # Create 2-channel image
         image = Image(
-            cell, size_x, size_y, size_z, 2, 1, order="XYZCT", type="uint16")
+            os.path.basename(cell), size_x, size_y, size_z, 2, 1,
+            order="XYZCT", type="uint16")
         image.add_channel("Hoechst", -1)
         image.add_channel("Condensin", -1)
 
@@ -48,5 +50,12 @@ for folder in folders:
             image.add_tiff("%s/%s" % (
                 os.path.basename(cell), rawtiffs[i]), c=i, z=0, t=0, ifd=0,
                 planeCount=size_z)
-        print cell
         create_companion(images=[image], out=cell + '.companion.ome')
+
+        # Generate indented XML for readability
+        proc = subprocess.Popen(
+            ['xmllint', '--format', '-o', cell + '.companion.ome',
+             cell + '.companion.ome'],
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE)
+        (output, error_output) = proc.communicate
