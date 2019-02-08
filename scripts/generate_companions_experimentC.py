@@ -15,6 +15,17 @@ DEBUG = int(os.environ.get("DEBUG", logging.INFO))
 
 BASE_DIRECTORY = join(
     dirname(abspath(dirname(sys.argv[0]))), 'experimentC', 'companions')
+
+CHANNEL_MAPPING = {
+    'NCAPD2gfpc272c78': ("DNA", -16711681, "CAP-D2", -1),
+    'NCAPD3gfpc16': ("DNA", -16711681, "CAP-D3", -1),
+    'NCAPH2gfpc67': ("DNA", -16711681, "CAP-H2", -1),
+    'NCAPHgfpc86': ("DNA", -16711681, "CAP-H", -1),
+    'SMC4gfpz82z68': ("DNA", -16711681, "SMC4", -1),
+    'NCAPH2-GFP-AF594_NCAPH-Halo-STARRED':
+        ("CAP-H", -16711681, "CAP-H2", 16711935),
+}
+
 folders = [join(BASE_DIRECTORY, x) for x in os.listdir(BASE_DIRECTORY)]
 folders = sorted(filter(os.path.isdir, folders))
 logging.info("Found %g folders under %s" % (len(folders), BASE_DIRECTORY))
@@ -43,8 +54,9 @@ for folder in folders:
         image = Image(
             os.path.basename(cell), size_x, size_y, size_z, 2, 1,
             order="XYZCT", type="uint16")
-        image.add_channel("Hoechst", -1)
-        image.add_channel("Condensin", -1)
+        (n1, c1, n2, c2) = CHANNEL_MAPPING[os.path.basename(cell)]
+        image.add_channel(n1, c1)
+        image.add_channel(n2, c2)
 
         for i in range(len(rawtiffs)):
             image.add_tiff("%s/%s" % (
