@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:4c515b7e-2e43-4590-8107-2cdc2ed2d66f" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:60" Name="c0002_r0008_prometa">
-    <Pixels DimensionOrder="XYZCT" ID="Pixels:60:60" SizeC="2" SizeT="1" SizeX="199" SizeY="115" SizeZ="13" Type="uint16">
-      <Channel Color="-1" ID="Channel:120" Name="Hoechst" SamplesPerPixel="1"/>
-      <Channel Color="-1" ID="Channel:121" Name="Condensin" SamplesPerPixel="1"/>
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:60:60" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="199" SizeY="115" SizeZ="13" Type="uint16">
+      <Channel Color="-16711681" ID="Channel:120" Name="CAP-H" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:121" Name="CAP-H2" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="13">
-        <UUID FileName="c0002_r0008_prometa/c0002_r0008_Cond1-H_20170915_NCAPH2-GFP-AF594_NCAPH-Halo-STARRED_2_prometa1_region4_Ch2.tif">urn:uuid:06e84564-d9b0-4efb-b3f1-51fe6aa59208</UUID>
+        <UUID FileName="c0002_r0008_prometa/c0002_r0008_Cond1-H_20170915_NCAPH2-GFP-AF594_NCAPH-Halo-STARRED_2_prometa1_region4_Ch2.tif">urn:uuid:391f1470-789c-4220-a358-c8ddbbd5acef</UUID>
       </TiffData>
       <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="13">
-        <UUID FileName="c0002_r0008_prometa/c0002_r0008_Cond2-H2_20170915_NCAPH2-GFP-AF594_NCAPH-Halo-STARRED_2_prometa1_region4_Ch1.tif">urn:uuid:4e8c0311-a349-41b1-a1d1-fb209a28a765</UUID>
+        <UUID FileName="c0002_r0008_prometa/c0002_r0008_Cond2-H2_20170915_NCAPH2-GFP-AF594_NCAPH-Halo-STARRED_2_prometa1_region4_Ch1.tif">urn:uuid:f010d022-b1b2-4fdc-9e89-95d95ce98c3a</UUID>
       </TiffData>
     </Pixels>
   </Image>

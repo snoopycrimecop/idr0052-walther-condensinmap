@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:4c515b7e-2e43-4590-8107-2cdc2ed2d66f" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:158" Name="c0014_r0004_prometa">
-    <Pixels DimensionOrder="XYZCT" ID="Pixels:158:158" SizeC="2" SizeT="1" SizeX="182" SizeY="210" SizeZ="29" Type="uint16">
-      <Channel Color="-1" ID="Channel:316" Name="Hoechst" SamplesPerPixel="1"/>
-      <Channel Color="-1" ID="Channel:317" Name="Condensin" SamplesPerPixel="1"/>
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:158:158" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="182" SizeY="210" SizeZ="29" Type="uint16">
+      <Channel Color="-16711681" ID="Channel:316" Name="DNA" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:317" Name="SMC4" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0014_r0004_prometa/c0014_r0004_Chr_20170907_Samples20170818_SMC4-mEGFP_A_prometa1_region5_Hoechst.tif">urn:uuid:4446c581-52b7-454f-a047-86f30321cb0e</UUID>
+        <UUID FileName="c0014_r0004_prometa/c0014_r0004_Chr_20170907_Samples20170818_SMC4-mEGFP_A_prometa1_region5_Hoechst.tif">urn:uuid:0841ddc5-3f6f-4373-a476-f518fc13d0fd</UUID>
       </TiffData>
       <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0014_r0004_prometa/c0014_r0004_Cond12-SMC4_20170907_Samples20170818_SMC4-mEGFP_A_prometa1_region5_Condensin.tif">urn:uuid:1d080a62-07d9-4799-896f-af66dc2e422f</UUID>
+        <UUID FileName="c0014_r0004_prometa/c0014_r0004_Cond12-SMC4_20170907_Samples20170818_SMC4-mEGFP_A_prometa1_region5_Condensin.tif">urn:uuid:493985b7-bda7-4250-b815-40555ca20ffd</UUID>
       </TiffData>
     </Pixels>
   </Image>

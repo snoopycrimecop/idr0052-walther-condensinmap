@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:4c515b7e-2e43-4590-8107-2cdc2ed2d66f" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:145" Name="c0012_r0008_ana_early">
-    <Pixels DimensionOrder="XYZCT" ID="Pixels:145:145" SizeC="2" SizeT="1" SizeX="153" SizeY="177" SizeZ="29" Type="uint16">
-      <Channel Color="-1" ID="Channel:290" Name="Hoechst" SamplesPerPixel="1"/>
-      <Channel Color="-1" ID="Channel:291" Name="Condensin" SamplesPerPixel="1"/>
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:145:145" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="153" SizeY="177" SizeZ="29" Type="uint16">
+      <Channel Color="-16711681" ID="Channel:290" Name="DNA" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:291" Name="SMC4" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0012_r0008_ana_early/c0012_r0008_Chr_20170901_Samples20170818_SMC4-mEGFP_B_ana-early1_region6_Hoechst.tif">urn:uuid:62a5603b-be88-4b63-a527-372d6b7bf956</UUID>
+        <UUID FileName="c0012_r0008_ana_early/c0012_r0008_Chr_20170901_Samples20170818_SMC4-mEGFP_B_ana-early1_region6_Hoechst.tif">urn:uuid:67498275-a29e-4bf3-ae0a-bde4ecf9f67f</UUID>
       </TiffData>
       <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0012_r0008_ana_early/c0012_r0008_Cond12-SMC4_20170901_Samples20170818_SMC4-mEGFP_B_ana-early1_region6_Condensin.tif">urn:uuid:b6f32b9d-e604-4f97-a9b7-97a825b70a9b</UUID>
+        <UUID FileName="c0012_r0008_ana_early/c0012_r0008_Cond12-SMC4_20170901_Samples20170818_SMC4-mEGFP_B_ana-early1_region6_Condensin.tif">urn:uuid:a61a0217-43e3-412b-95d9-b05fdc0fac26</UUID>
       </TiffData>
     </Pixels>
   </Image>

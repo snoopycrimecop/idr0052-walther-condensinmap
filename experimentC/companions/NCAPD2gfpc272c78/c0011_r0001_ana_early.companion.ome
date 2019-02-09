@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:4c515b7e-2e43-4590-8107-2cdc2ed2d66f" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:9" Name="c0011_r0001_ana_early">
-    <Pixels DimensionOrder="XYZCT" ID="Pixels:9:9" SizeC="2" SizeT="1" SizeX="165" SizeY="105" SizeZ="29" Type="uint16">
-      <Channel Color="-1" ID="Channel:18" Name="Hoechst" SamplesPerPixel="1"/>
-      <Channel Color="-1" ID="Channel:19" Name="Condensin" SamplesPerPixel="1"/>
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:9:9" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="165" SizeY="105" SizeZ="29" Type="uint16">
+      <Channel Color="-16711681" ID="Channel:18" Name="DNA" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:19" Name="CAP-D2" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0011_r0001_ana_early/c0011_r0001_Chr_20170831_Samples20170818_NCAPD2-mEGFP_C_ana-early3_region2_Hoechst.tif">urn:uuid:9b1fb915-8ecc-4a7d-a75e-89f5e6acf28e</UUID>
+        <UUID FileName="c0011_r0001_ana_early/c0011_r0001_Chr_20170831_Samples20170818_NCAPD2-mEGFP_C_ana-early3_region2_Hoechst.tif">urn:uuid:6fa602e9-6d15-4ac7-abf3-671f44494875</UUID>
       </TiffData>
       <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0011_r0001_ana_early/c0011_r0001_Cond1-D2_20170831_Samples20170818_NCAPD2-mEGFP_C_ana-early3_region2_Condensin.tif">urn:uuid:5bc29e14-f6bd-43fb-a18a-f3756ef1e8ac</UUID>
+        <UUID FileName="c0011_r0001_ana_early/c0011_r0001_Cond1-D2_20170831_Samples20170818_NCAPD2-mEGFP_C_ana-early3_region2_Condensin.tif">urn:uuid:c5ccae22-4a7c-440d-8e8d-c82835bc73d1</UUID>
       </TiffData>
     </Pixels>
   </Image>
