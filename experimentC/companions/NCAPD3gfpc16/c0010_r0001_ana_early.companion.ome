@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:28" Name="c0010_r0001_ana_early">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:28:28" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="222" SizeY="116" SizeZ="29" Type="uint16">
+      <Channel Color="-16711681" ID="Channel:56" Name="DNA" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:57" Name="CAP-D3" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
+        <UUID FileName="c0010_r0001_ana_early/c0010_r0001_Chr_20170831_Samples20170818_NCAPD3-mEGFP_A_ana-early2_region3_Hoechst.tif">urn:uuid:5fdcb5ea-e86b-4c00-87b4-de594d1f8acb</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
+        <UUID FileName="c0010_r0001_ana_early/c0010_r0001_Cond2-D3_20170831_Samples20170818_NCAPD3-mEGFP_A_ana-early2_region3_Condensin.tif">urn:uuid:1cad662a-3797-4bd4-ac0d-3db6ad19d54f</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>

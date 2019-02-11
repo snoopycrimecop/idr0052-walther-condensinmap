@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:141" Name="c0012_r0004_ana_early">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:141:141" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="142" SizeY="162" SizeZ="29" Type="uint16">
+      <Channel Color="-16711681" ID="Channel:282" Name="DNA" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:283" Name="SMC4" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
+        <UUID FileName="c0012_r0004_ana_early/c0012_r0004_Chr_20170901_Samples20170818_SMC4-mEGFP_B_ana-early1_region9_Hoechst.tif">urn:uuid:1e976a6e-a033-4654-babe-f1a6b681693e</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
+        <UUID FileName="c0012_r0004_ana_early/c0012_r0004_Cond12-SMC4_20170901_Samples20170818_SMC4-mEGFP_B_ana-early1_region9_Condensin.tif">urn:uuid:719e96ba-73c4-4d5f-97de-53c47c8b8c90</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>

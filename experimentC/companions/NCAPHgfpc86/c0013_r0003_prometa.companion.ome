@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:131" Name="c0013_r0003_prometa">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:131:131" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="114" SizeY="252" SizeZ="29" Type="uint16">
+      <Channel Color="-16711681" ID="Channel:262" Name="DNA" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:263" Name="CAP-H" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
+        <UUID FileName="c0013_r0003_prometa/c0013_r0003_Chr_20170903_Samples20170818_NCAPH-mEGFP_B_prometa1_region1_Hoechst.tif">urn:uuid:6bafde44-3991-47c2-ae57-eb50f8cad518</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
+        <UUID FileName="c0013_r0003_prometa/c0013_r0003_Cond1-H_20170903_Samples20170818_NCAPH-mEGFP_B_prometa1_region1_Condensin.tif">urn:uuid:240335eb-3fde-41da-afb8-136ae8820e82</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>

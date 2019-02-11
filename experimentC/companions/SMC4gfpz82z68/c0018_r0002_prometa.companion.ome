@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:169" Name="c0018_r0002_prometa">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:169:169" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="177" SizeY="165" SizeZ="29" Type="uint16">
+      <Channel Color="-16711681" ID="Channel:338" Name="DNA" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:339" Name="SMC4" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
+        <UUID FileName="c0018_r0002_prometa/c0018_r0002_Chr_20170905_Samples20170818_SMC4-mEGFP_B_prometa2_region1_Hoechst.tif">urn:uuid:b36c5958-c500-45f8-859e-05a6e1d2a98c</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
+        <UUID FileName="c0018_r0002_prometa/c0018_r0002_Cond12-SMC4_20170905_Samples20170818_SMC4-mEGFP_B_prometa2_region1_Condensin.tif">urn:uuid:bd8d0159-f423-4a4a-9993-a465e5bc0ca5</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>

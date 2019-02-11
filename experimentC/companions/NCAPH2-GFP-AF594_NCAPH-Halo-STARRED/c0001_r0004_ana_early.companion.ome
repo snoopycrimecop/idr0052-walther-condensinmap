@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:52" Name="c0001_r0004_ana_early">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:52:52" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="118" SizeY="166" SizeZ="13" Type="uint16">
+      <Channel Color="-16711681" ID="Channel:104" Name="CAP-H" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:105" Name="CAP-H2" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="13">
+        <UUID FileName="c0001_r0004_ana_early/c0001_r0004_Cond1-H_20170915_NCAPH2-GFP-AF594_NCAPH-Halo-STARRED_2_ana_early1_region3_Ch2.tif">urn:uuid:696becd6-d931-41e0-a7bd-f0e0b7f1eeb2</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="13">
+        <UUID FileName="c0001_r0004_ana_early/c0001_r0004_Cond2-H2_20170915_NCAPH2-GFP-AF594_NCAPH-Halo-STARRED_2_ana_early1_region3_Ch1.tif">urn:uuid:47b209fb-1076-457d-9522-4f57aca8ce0e</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>
