@@ -69,3 +69,11 @@ for folder in folders:
         images.append(image)
 
         create_companion(images=images, out=cell + '.companion.ome')
+
+        # Generate indented XML for readability
+        proc = subprocess.Popen(
+            ['xmllint', '--format', '-o', cell + '.companion.ome',
+             cell + '.companion.ome'],
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE)
+        (output, error_output) = proc.communicate()
