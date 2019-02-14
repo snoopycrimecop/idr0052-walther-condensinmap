@@ -17,13 +17,13 @@ BASE_DIRECTORY = join(
     dirname(abspath(dirname(sys.argv[0]))), 'experimentC', 'companions')
 
 CHANNEL_MAPPING = {
-    'NCAPD2gfpc272c78': ("DNA", -16711681, "CAP-D2", -1),
-    'NCAPD3gfpc16': ("DNA", -16711681, "CAP-D3", -1),
-    'NCAPH2gfpc67': ("DNA", -16711681, "CAP-H2", -1),
-    'NCAPHgfpc86': ("DNA", -16711681, "CAP-H", -1),
+    'NCAPD2gfpc272c78': ("DNA", -16711681, "NCAPD2", -1),
+    'NCAPD3gfpc16': ("DNA", -16711681, "NCAPD3", -1),
+    'NCAPH2gfpc67': ("DNA", -16711681, "NCAPH2", -1),
+    'NCAPHgfpc86': ("DNA", -16711681, "NCAPH", -1),
     'SMC4gfpz82z68': ("DNA", -16711681, "SMC4", -1),
     'NCAPH2-GFP-AF594_NCAPH-Halo-STARRED':
-        ("CAP-H", -16711681, "CAP-H2", 16711935),
+        ("NCAPH", -16711681, "NCAPH2", 16711935),
 }
 
 folders = [join(BASE_DIRECTORY, x) for x in os.listdir(BASE_DIRECTORY)]
