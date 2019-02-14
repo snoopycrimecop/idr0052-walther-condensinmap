@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # Generate companion files
 
 import glob
@@ -35,7 +36,7 @@ for folder in folders:
             os.path.basename, glob.glob("%s/rawtif/*" % cell)))
         assert len(rawtiffs) == 40
 
-        for protein in proteins:
+        for protein in PROTEINS:
             if protein in os.path.basename(folder):
                 break
 
