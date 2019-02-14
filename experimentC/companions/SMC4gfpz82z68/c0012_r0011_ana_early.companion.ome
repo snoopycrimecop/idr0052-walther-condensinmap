@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:1157014e-01b4-49c1-b5b9-72d614c29984" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:148" Name="c0012_r0011_ana_early">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:148:148" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="179" SizeY="169" SizeZ="29" Type="uint16">
       <Channel Color="-16711681" ID="Channel:296" Name="DNA" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:297" Name="SMC4" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0012_r0011_ana_early/c0012_r0011_Chr_20170901_Samples20170818_SMC4-mEGFP_B_ana-early1_region3_Hoechst.tif">urn:uuid:78fccf73-cdd7-400f-8c16-f52a76b52e7d</UUID>
+        <UUID FileName="c0012_r0011_ana_early/c0012_r0011_Chr_20170901_Samples20170818_SMC4-mEGFP_B_ana-early1_region3_Hoechst.tif">urn:uuid:91da3f98-db51-45c5-aba7-fcbf1e239b91</UUID>
       </TiffData>
       <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0012_r0011_ana_early/c0012_r0011_Cond12-SMC4_20170901_Samples20170818_SMC4-mEGFP_B_ana-early1_region3_Condensin.tif">urn:uuid:665c3805-1880-4941-8296-5a6693b703dd</UUID>
+        <UUID FileName="c0012_r0011_ana_early/c0012_r0011_Cond12-SMC4_20170901_Samples20170818_SMC4-mEGFP_B_ana-early1_region3_Condensin.tif">urn:uuid:20dbb2a2-6e2a-4b27-bddc-031798516f64</UUID>
       </TiffData>
     </Pixels>
   </Image>

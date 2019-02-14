@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:1157014e-01b4-49c1-b5b9-72d614c29984" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:155" Name="c0014_r0001_prometa">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:155:155" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="92" SizeY="166" SizeZ="29" Type="uint16">
       <Channel Color="-16711681" ID="Channel:310" Name="DNA" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:311" Name="SMC4" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0014_r0001_prometa/c0014_r0001_Chr_20170907_Samples20170818_SMC4-mEGFP_A_prometa1_region3_Hoechst.tif">urn:uuid:f40158c3-3f94-42dc-989f-1535672f3f35</UUID>
+        <UUID FileName="c0014_r0001_prometa/c0014_r0001_Chr_20170907_Samples20170818_SMC4-mEGFP_A_prometa1_region3_Hoechst.tif">urn:uuid:c29c981b-67b6-4552-b59e-a8702204862a</UUID>
       </TiffData>
       <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0014_r0001_prometa/c0014_r0001_Cond12-SMC4_20170907_Samples20170818_SMC4-mEGFP_A_prometa1_region3_Condensin.tif">urn:uuid:baa03ae2-20a5-459b-b889-8dca0600a7bd</UUID>
+        <UUID FileName="c0014_r0001_prometa/c0014_r0001_Cond12-SMC4_20170907_Samples20170818_SMC4-mEGFP_A_prometa1_region3_Condensin.tif">urn:uuid:d41bbf92-0c14-4d2b-8b56-3986ad60026a</UUID>
       </TiffData>
     </Pixels>
   </Image>
