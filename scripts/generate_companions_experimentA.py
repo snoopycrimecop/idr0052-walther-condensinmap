@@ -7,6 +7,7 @@ import os
 from os.path import dirname, join, abspath
 from ome_model.experimental import Image, create_companion
 import logging
+import subprocess
 import sys
 
 DEBUG = int(os.environ.get("DEBUG", logging.INFO))
