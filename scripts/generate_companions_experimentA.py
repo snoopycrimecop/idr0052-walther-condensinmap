@@ -46,11 +46,8 @@ for folder in folders:
         image.add_channel("DNA", 65535)
         image.add_channel("NEG_Dextran", -1)
         image.data['Pixels']['PhysicalSizeX'] = '0.2516'
-        image.data['Pixels']['PhysicalSizeXUnit'] = 'µm'
         image.data['Pixels']['PhysicalSizeY'] = '0.2516'
-        image.data['Pixels']['PhysicalSizeYUnit'] = 'µm'
         image.data['Pixels']['PhysicalSizeZ'] = '0.75'
-        image.data['Pixels']['PhysicalSizeZUnit'] = 'µm'
         for i in range(40):
             image.add_tiff(
                 '%s/rawtif/%s' % (os.path.basename(cell), rawtiffs[i]),
@@ -64,11 +61,8 @@ for folder in folders:
         image.add_channel("DNA", -1)
         image.add_channel("Cell", -1)
         image.data['Pixels']['PhysicalSizeX'] = '0.2516'
-        image.data['Pixels']['PhysicalSizeXUnit'] = 'µm'
         image.data['Pixels']['PhysicalSizeY'] = '0.2516'
-        image.data['Pixels']['PhysicalSizeYUnit'] = 'µm'
         image.data['Pixels']['PhysicalSizeZ'] = '0.75'
-        image.data['Pixels']['PhysicalSizeZUnit'] = 'µm'
         for i in range(40):
             image.add_tiff(
                 '%s/masktif/%s' % (os.path.basename(cell), masktiffs[i]),
@@ -82,11 +76,8 @@ for folder in folders:
             type="float")
         image.add_channel(protein, -1)
         image.data['Pixels']['PhysicalSizeX'] = '0.2516'
-        image.data['Pixels']['PhysicalSizeXUnit'] = 'µm'
         image.data['Pixels']['PhysicalSizeY'] = '0.2516'
-        image.data['Pixels']['PhysicalSizeYUnit'] = 'µm'
         image.data['Pixels']['PhysicalSizeZ'] = '0.75'
-        image.data['Pixels']['PhysicalSizeZUnit'] = 'µm'
         for i in range(40):
             image.add_tiff(
                 '%s/conctif/%s' % (os.path.basename(cell), conctiffs[i]),
