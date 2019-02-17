@@ -50,8 +50,6 @@ def create_companion(folder, channels, pixeltype):
         order="XYZCT", type=pixeltype)
     for c in channels:
         image.add_channel(c, channels[c])
-        image.add_channel(c, channels[c])
-        image.add_channel(c, channels[c])
     for i in range(SIZE_T):
         image.add_tiff(
             '%s/%s' % (os.path.basename(folder), tiffs[i]),
