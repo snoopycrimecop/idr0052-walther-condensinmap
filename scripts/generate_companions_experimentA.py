@@ -80,6 +80,9 @@ def to_iso8601(x):
 
 if os.path.exists(FILEPATHS_TSV):
     os.remove(FILEPATHS_TSV)
+if not os.path.exists(METADATA_DIRECTORY):
+    os.mkdir(METADATA_DIRECTORY)
+    logging.info("Created %s" % METADATA_DIRECTORY)
 
 for folder in folders:
     # Create protein folder
