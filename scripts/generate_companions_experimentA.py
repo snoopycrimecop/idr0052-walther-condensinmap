@@ -128,5 +128,6 @@ for folder in folders:
     # Add raw and concentration folders to filePaths.tsv
     dataset_name = "%s %s" % (protein, to_iso8601(basename(folder)))
     with open(FILEPATHS_TSV, 'a') as f:
-        f.write("Dataset:name:%s\t%s" % (dataset_name + "raw", raw_folder))
-        f.write("Dataset:name:%s\t%s" % (dataset_name + "conc", conc_folder))
+        f.write("Dataset:name:%s\t%s\n" % (dataset_name + " raw", raw_folder))
+        f.write("Dataset:name:%s\t%s\n" % (
+            dataset_name + " conc", conc_folder))
