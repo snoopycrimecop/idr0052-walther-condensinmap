@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:1157014e-01b4-49c1-b5b9-72d614c29984" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:134" Name="c0014_r0002_prometa">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:134:134" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="154" SizeY="180" SizeZ="29" Type="uint16">
       <Channel Color="-16711681" ID="Channel:268" Name="DNA" SamplesPerPixel="1"/>
-      <Channel Color="-1" ID="Channel:269" Name="CAP-H" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:269" Name="NCAPH" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0014_r0002_prometa/c0014_r0002_Chr_20170903_Samples20170818_NCAPH-mEGFP_B_prometa2_region2_Hoechst.tif">urn:uuid:0e78146a-4e9c-477a-a62e-1c9ea7d8362e</UUID>
+        <UUID FileName="c0014_r0002_prometa/c0014_r0002_Chr_20170903_Samples20170818_NCAPH-mEGFP_B_prometa2_region2_Hoechst.tif">urn:uuid:f94e70a3-a2e0-46b8-b93a-5161dd18b696</UUID>
       </TiffData>
       <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0014_r0002_prometa/c0014_r0002_Cond1-H_20170903_Samples20170818_NCAPH-mEGFP_B_prometa2_region2_Condensin.tif">urn:uuid:cdd13964-2d79-45ad-80df-85bdf266cd55</UUID>
+        <UUID FileName="c0014_r0002_prometa/c0014_r0002_Cond1-H_20170903_Samples20170818_NCAPH-mEGFP_B_prometa2_region2_Condensin.tif">urn:uuid:f358895f-7b0f-407f-981a-990aa932d387</UUID>
       </TiffData>
     </Pixels>
   </Image>

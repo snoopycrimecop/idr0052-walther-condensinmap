@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:1157014e-01b4-49c1-b5b9-72d614c29984" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:84" Name="c0008_r0003_ana_early">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:84:84" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="121" SizeY="164" SizeZ="13" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:168" Name="CAP-H" SamplesPerPixel="1"/>
-      <Channel Color="16711935" ID="Channel:169" Name="CAP-H2" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:168" Name="NCAPH" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:169" Name="NCAPH2" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="13">
-        <UUID FileName="c0008_r0003_ana_early/c0008_r0003_Cond1-H_20170913_NCAPH2-GFP-AF594_NCAPH-Halo-STARRED_2_ana_early3_region3_Ch2.tif">urn:uuid:f3e3efd8-960a-4d17-9c71-ba6e9a4cbbca</UUID>
+        <UUID FileName="c0008_r0003_ana_early/c0008_r0003_Cond1-H_20170913_NCAPH2-GFP-AF594_NCAPH-Halo-STARRED_2_ana_early3_region3_Ch2.tif">urn:uuid:79ffbd79-c108-42fb-bb3e-a471ccded59d</UUID>
       </TiffData>
       <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="13">
-        <UUID FileName="c0008_r0003_ana_early/c0008_r0003_Cond2-H2_20170913_NCAPH2-GFP-AF594_NCAPH-Halo-STARRED_2_ana_early3_region3_Ch1.tif">urn:uuid:16773dda-d4e0-4567-ace7-a9aa429b126f</UUID>
+        <UUID FileName="c0008_r0003_ana_early/c0008_r0003_Cond2-H2_20170913_NCAPH2-GFP-AF594_NCAPH-Halo-STARRED_2_ana_early3_region3_Ch1.tif">urn:uuid:e456fafa-abe7-4daf-9314-61f8ff6be485</UUID>
       </TiffData>
     </Pixels>
   </Image>

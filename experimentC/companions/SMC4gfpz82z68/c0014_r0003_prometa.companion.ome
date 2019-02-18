@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:1157014e-01b4-49c1-b5b9-72d614c29984" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:157" Name="c0014_r0003_prometa">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:157:157" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="180" SizeY="209" SizeZ="29" Type="uint16">
       <Channel Color="-16711681" ID="Channel:314" Name="DNA" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:315" Name="SMC4" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0014_r0003_prometa/c0014_r0003_Chr_20170907_Samples20170818_SMC4-mEGFP_A_prometa1_region5_Hoechst.tif">urn:uuid:74b46c9b-49ab-4eda-9a59-9694ad492178</UUID>
+        <UUID FileName="c0014_r0003_prometa/c0014_r0003_Chr_20170907_Samples20170818_SMC4-mEGFP_A_prometa1_region5_Hoechst.tif">urn:uuid:629685df-2a9d-4ac0-8b26-4d30ddb3995c</UUID>
       </TiffData>
       <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0014_r0003_prometa/c0014_r0003_Cond12-SMC4_20170907_Samples20170818_SMC4-mEGFP_A_prometa1_region5_Condensin.tif">urn:uuid:c85532de-b980-4f33-b52f-675281f0a7b2</UUID>
+        <UUID FileName="c0014_r0003_prometa/c0014_r0003_Cond12-SMC4_20170907_Samples20170818_SMC4-mEGFP_A_prometa1_region5_Condensin.tif">urn:uuid:69753cf3-2d07-493a-94f3-8556a1375731</UUID>
       </TiffData>
     </Pixels>
   </Image>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:1157014e-01b4-49c1-b5b9-72d614c29984" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:125" Name="c0011_r0005_ana_early">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:125:125" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="261" SizeY="123" SizeZ="29" Type="uint16">
       <Channel Color="-16711681" ID="Channel:250" Name="DNA" SamplesPerPixel="1"/>
-      <Channel Color="-1" ID="Channel:251" Name="CAP-H" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:251" Name="NCAPH" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0011_r0005_ana_early/c0011_r0005_Chr_20170829_Samples20170818_NCAPH-mEGFP_A_ana-early5_region3_Hoechst.tif">urn:uuid:d6e793aa-8ac9-48d4-a44e-bfd31e35f7e3</UUID>
+        <UUID FileName="c0011_r0005_ana_early/c0011_r0005_Chr_20170829_Samples20170818_NCAPH-mEGFP_A_ana-early5_region3_Hoechst.tif">urn:uuid:3c807459-9f2f-41d9-89fe-f91a5bf4a944</UUID>
       </TiffData>
       <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0011_r0005_ana_early/c0011_r0005_Cond1-H_20170829_Samples20170818_NCAPH-mEGFP_A_ana-early5_region3_Condensin.tif">urn:uuid:b52ab623-3616-4749-a379-a488ff553121</UUID>
+        <UUID FileName="c0011_r0005_ana_early/c0011_r0005_Cond1-H_20170829_Samples20170818_NCAPH-mEGFP_A_ana-early5_region3_Condensin.tif">urn:uuid:9a49e44a-b81f-497d-acb2-c9d5a8a84596</UUID>
       </TiffData>
     </Pixels>
   </Image>

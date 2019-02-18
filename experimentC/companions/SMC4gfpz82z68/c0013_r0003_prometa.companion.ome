@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:d9fb47c6-ec8e-409a-8731-bcac6d060da1" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Creator="ome_model/experimental.py" UUID="urn:uuid:1157014e-01b4-49c1-b5b9-72d614c29984" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:153" Name="c0013_r0003_prometa">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:153:153" PhysicalSizeX="20" PhysicalSizeXUnit="nm" PhysicalSizeY="20" PhysicalSizeYUnit="nm" SizeC="2" SizeT="1" SizeX="223" SizeY="154" SizeZ="29" Type="uint16">
       <Channel Color="-16711681" ID="Channel:306" Name="DNA" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:307" Name="SMC4" SamplesPerPixel="1"/>
       <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0013_r0003_prometa/c0013_r0003_Chr_20170907_Samples20170818_SMC4-mEGFP_A_prometa2_region2_Hoechst.tif">urn:uuid:3522a115-bf7b-4fbe-95d8-391bfa0f06a8</UUID>
+        <UUID FileName="c0013_r0003_prometa/c0013_r0003_Chr_20170907_Samples20170818_SMC4-mEGFP_A_prometa2_region2_Hoechst.tif">urn:uuid:6a124017-6b90-461e-8e53-7dadd16edb17</UUID>
       </TiffData>
       <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="29">
-        <UUID FileName="c0013_r0003_prometa/c0013_r0003_Cond12-SMC4_20170907_Samples20170818_SMC4-mEGFP_A_prometa2_region2_Condensin.tif">urn:uuid:4ceca91e-6ea2-4283-8822-564fd1a3ac0e</UUID>
+        <UUID FileName="c0013_r0003_prometa/c0013_r0003_Cond12-SMC4_20170907_Samples20170818_SMC4-mEGFP_A_prometa2_region2_Condensin.tif">urn:uuid:66861e79-c744-441a-8d14-c7e5a50dcce8</UUID>
       </TiffData>
     </Pixels>
   </Image>
