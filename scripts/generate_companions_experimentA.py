@@ -49,7 +49,7 @@ def create_companion(folder, channels, pixeltype):
         basename(folder), SIZE_X, SIZE_Y, SIZE_Z, len(channels), SIZE_T,
         order="XYZCT", type=pixeltype)
     for c in channels:
-        image.add_channel(c, channels[c])
+        image.add_channel(c[0], c[1])
     for i in range(SIZE_T):
         image.add_tiff(
             '%s/%s' % (os.path.basename(folder), tiffs[i]),
@@ -105,8 +105,8 @@ for folder in folders:
         if protein in os.path.basename(folder):
             logging.debug("Found protein %s" % protein)
             break
-    raw_channels = {protein: 16711935, "DNA": 65535, "NEG_Dextran": -1}
-    conc_channels = {protein: -1}
+    raw_channels = [(protein, 16711935), ("DNA", 65535), ("NEG_Dextran", -1)]
+    conc_channels = [(protein, -1)]
 
     cells = [x for x in glob.glob(folder + "/*")
              if os.path.isdir(x) and not x.endswith("Calibration")]
