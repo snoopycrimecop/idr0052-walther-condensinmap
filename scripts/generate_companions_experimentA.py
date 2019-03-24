@@ -12,6 +12,7 @@
 
 import glob
 import os
+from experimentA import get_protein, get_date
 from os.path import dirname, join, abspath, basename
 import ome_model.experimental
 import logging
@@ -19,7 +20,6 @@ import subprocess
 import sys
 
 DEBUG = int(os.environ.get("DEBUG", logging.INFO))
-PROTEINS = ["SMC4", "NCAPD3", "NCAPD2", "NCAPDH2", "NCAPH"]
 BASE_DIRECTORY = "/uod/idr/filesets/idr0052-walther-condensinmap/" \
     "20181113-ftp/MitoSys/"
 METADATA_DIRECTORY = join(
@@ -72,10 +72,6 @@ def create_companion(folder, channels, pixeltype):
     logging.info("Created %s" % companion_file)
 
 
-def to_iso8601(x):
-    return "20" + x[:2] + "-" + x[2:4] + "-" + x[4:6]
-
-
 if os.path.exists(FILEPATHS_TSV):
     os.remove(FILEPATHS_TSV)
 if not os.path.exists(METADATA_DIRECTORY):
@@ -101,10 +97,7 @@ for folder in folders:
         logging.info("Created %s" % conc_folder)
 
     # Identify measured protein and create raw and concentration channels
-    for protein in PROTEINS:
-        if protein in os.path.basename(folder):
-            logging.debug("Found protein %s" % protein)
-            break
+    protein = get_protein(folder)
     raw_channels = [(protein, 16711935), ("DNA", 65535), ("NEG_Dextran", -1)]
     conc_channels = [(protein, -1)]
 
@@ -129,7 +122,7 @@ for folder in folders:
     uod_metadata_folder = join(
         "/uod/idr/metadata/idr0052-walther-condensinmap", "experimentA",
         "companions", basename(folder))
-    dataset_name = "%s %s" % (protein, to_iso8601(basename(folder)))
+    dataset_name = "%s %s" % (protein, get_date(folder))
     with open(FILEPATHS_TSV, 'a') as f:
         f.write("Dataset:name:%s\t%s\n" % (
             dataset_name + " raw", join(uod_metadata_folder, "raw")))
