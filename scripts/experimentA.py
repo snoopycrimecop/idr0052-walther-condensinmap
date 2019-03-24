@@ -3,11 +3,13 @@
 #
 # Utility functions shared between experimentA scripts
 
-import os
-from os.path import basename
 import logging
+from os.path import basename, dirname, join, abspath
+import sys
 
 PROTEINS = ["SMC4", "NCAPD3", "NCAPD2", "NCAPDH2", "NCAPH"]
+EXPERIMENT_DIRECTORY = join(
+    dirname(abspath(dirname(sys.argv[0]))), 'experimentA')
 
 
 def get_date(folder):
@@ -19,6 +21,6 @@ def get_date(folder):
 def get_protein(folder):
     """Return folder protein"""
     for protein in PROTEINS:
-        if protein in os.path.basename(folder):
+        if protein in basename(folder):
             logging.debug("Found protein %s" % protein)
             break

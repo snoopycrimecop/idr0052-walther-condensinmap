@@ -12,21 +12,17 @@
 
 import glob
 import os
-from experimentA import get_protein, get_date
-from os.path import dirname, join, abspath, basename
+from experimentA import get_protein, get_date, EXPERIMENT_DIRECTORY
+from os.path import join, basename
 import ome_model.experimental
 import logging
 import subprocess
-import sys
 
 DEBUG = int(os.environ.get("DEBUG", logging.INFO))
 BASE_DIRECTORY = "/uod/idr/filesets/idr0052-walther-condensinmap/" \
     "20181113-ftp/MitoSys/"
-METADATA_DIRECTORY = join(
-    dirname(abspath(dirname(sys.argv[0]))), 'experimentA', 'companions')
-FILEPATHS_TSV = join(
-    dirname(abspath(dirname(sys.argv[0]))), 'experimentA',
-    'idr0052-experimentA-filePaths.tsv')
+METADATA_DIRECTORY = join(EXPERIMENT_DIRECTORY, 'companions')
+FILEPATHS_TSV = join(EXPERIMENT_DIRECTORY, 'idr0052-experimentA-filePaths.tsv')
 
 # Find original folders
 folders = [join(BASE_DIRECTORY, x) for x in os.listdir(BASE_DIRECTORY)]
