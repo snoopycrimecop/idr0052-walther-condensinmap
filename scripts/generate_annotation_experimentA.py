@@ -27,7 +27,8 @@ with open(ASSAYS_FILE, 'r') as input_file:
         index = {key: source_headers.index(key) for key in source_headers}
 
         # Write CSV headers
-        target_csv = csv.writer(target_file, delimiter='\t')
+        target_csv = csv.writer(
+            target_file, delimiter='\t', lineterminator='\n')
         target_headers = ['Dataset Name', 'Image Name'] + source_headers
         target_csv.writerow(target_headers)
 
