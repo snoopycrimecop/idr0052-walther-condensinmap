@@ -23,4 +23,4 @@ def get_protein(folder):
     for protein in PROTEINS:
         if protein in basename(folder):
             logging.debug("Found protein %s" % protein)
-            break
+            return protein
