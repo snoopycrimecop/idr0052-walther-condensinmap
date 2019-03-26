@@ -13,8 +13,7 @@ DEBUG = int(os.environ.get("DEBUG", logging.INFO))
 ASSAYS_FILE = join(EXPERIMENT_DIRECTORY, 'MitoSys_assay_file.txt')
 ANNOTATION_FILE = join(
     EXPERIMENT_DIRECTORY, 'idr0052-experimentA-annotation.csv')
-KEYS = [
-    "Assay Name", "Dataset Name", "Image File", "Comment [Image File Path]"]
+KEYS = ["Dataset Name", "Image File"]
 
 
 with open(ASSAYS_FILE, 'r') as input_file:
@@ -25,10 +24,13 @@ with open(ASSAYS_FILE, 'r') as input_file:
 
         # Create index
         index = {key: source_headers.index(key) for key in source_headers}
-
+        columns_to_drop = sorted([index["Dataset Name"], index["Image File"]],
+                                 reverse=True)
         # Write CSV headers
         target_csv = csv.writer(
             target_file, delimiter=',', lineterminator='\n')
+        for i in columns_to_drop:
+            del source_headers[i]
         target_headers = ['Dataset Name', 'Image Name'] + source_headers
         target_csv.writerow(target_headers)
 
@@ -45,7 +47,7 @@ with open(ASSAYS_FILE, 'r') as input_file:
                     if i != index["Image File"]:
                         assert source_row[i] == last_row[i]
                 continue
-            last_row = source_row
+            last_row = list(source_row)
 
             # Generate imported dataset and image names from
             assay_name = source_row[index["Assay Name"]]
@@ -58,5 +60,7 @@ with open(ASSAYS_FILE, 'r') as input_file:
             image_name = source_row[index["Dataset Name"]] + ".companion.ome"
 
             # Write row in CSV file
+            for i in columns_to_drop:
+                del source_row[i]
             target_row = [dataset_name, image_name] + source_row
             target_csv.writerow(target_row)
