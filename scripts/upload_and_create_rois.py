@@ -4,9 +4,12 @@
 # exists. If you want to use a different login ensure you logout first.
 
 import os
+from skimage.io import imread
+
 import omero.clients
 import omero.cli
 from omero_upload import upload_ln_s
+from omero_rois import masks_from_label_image
 
 DRYRUN = False
 OMERO_DATA_DIR = '/data/OMERO'
@@ -47,6 +50,49 @@ def get_label_files_in_t_order(im, filenames, check=True):
     return [maskfile_map[k] for k in sorted(maskfile_map)]
 
 
+def create_rois(im):
+    rgba = [
+        (0, 0, 128, 128),
+        (0, 128, 0, 128),
+    ]
+    labels = [
+        'Chromosomes',
+        'Cell',
+    ]
+    # Separate ROI for each channel and time
+    mask_files, filenames = get_mask_files(im)
+    mask_files = get_label_files_in_t_order(im, filenames)
+    rois = []
+    for t in xrange(im.getSizeT()):
+        maskim = imread(mask_files[t])
+        assert maskim.shape[0] == im.getSizeZ() * 2
+        assert maskim.min() == 0
+        for c in xrange(2):
+            roi = omero.model.RoiI()
+            for z in xrange(im.getSizeZ()):
+                maskzc = maskim[c * im.getSizeZ() + z]
+                shapes = masks_from_label_image(
+                    maskzc, rgba=rgba[c], z=z, t=t, text=labels[c],
+                    raise_on_no_mask=False)
+                for s in shapes:
+                    roi.addShape(s)
+            print('%s[t=%d] mask:%s shapes:%d' % (
+                    im.name, t, os.path.basename(mask_files[t]), len(shapes)))
+            rois.append(roi)
+    return rois
+
+
+def save_rois(conn, im, rois):
+    print('Saving %d ROIs for image %d:%s' % (len(rois), im.id, im.name))
+    us = conn.getUpdateService()
+    for roi in rois:
+        # Due to a bug need to reload the image for each ROI
+        im = conn.getObject('Image', im.id)
+        roi.setImage(im._obj)
+        roi1 = us.saveAndReturnObject(roi)
+        assert roi1
+
+
 def get_images(conn):
     for pname in (
         'idr0052-walther-condensinmap/experimentA',
@@ -77,6 +123,12 @@ def main(conn):
                 fa = conn.getUpdateService().saveAndReturnObject(fa)
                 fa = omero.gateway.FileAnnotationWrapper(conn, fa)
                 im.linkAnnotation(fa)
+
+    for im in get_images(conn):
+        print('Image: %d' % im.id)
+        rois = create_rois(im)
+        if not DRYRUN:
+            save_rois(conn, im, rois)
 
 
 if __name__ == '__main__':
