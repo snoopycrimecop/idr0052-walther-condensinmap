@@ -69,6 +69,7 @@ def create_rois(im):
         assert maskim.min() == 0
         for c in xrange(2):
             roi = omero.model.RoiI()
+            nshapes = 0
             for z in xrange(im.getSizeZ()):
                 maskzc = maskim[c * im.getSizeZ() + z]
                 shapes = masks_from_label_image(
@@ -76,8 +77,9 @@ def create_rois(im):
                     raise_on_no_mask=False)
                 for s in shapes:
                     roi.addShape(s)
+                nshapes += len(shapes)
             print('%s[t=%d] mask:%s shapes:%d' % (
-                    im.name, t, os.path.basename(mask_files[t]), len(shapes)))
+                    im.name, t, os.path.basename(mask_files[t]), nshapes))
             rois.append(roi)
     return rois
 
