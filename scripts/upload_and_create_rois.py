@@ -52,7 +52,7 @@ def get_label_files_in_t_order(im, filenames, check=True):
 
 def create_rois(im):
     rgba = [
-        (0, 0, 128, 128),
+        (255, 255, 255, 128),
         (0, 128, 0, 128),
     ]
     labels = [
