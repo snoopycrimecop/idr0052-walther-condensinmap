@@ -7,7 +7,7 @@ import logging
 from os.path import basename, dirname, join, abspath
 import sys
 
-PROTEINS = ["SMC4", "NCAPD3", "NCAPD2", "NCAPDH2", "NCAPH"]
+PROTEINS = ["SMC4", "NCAPD3", "NCAPD2", "NCAPH2", "NCAPH"]
 EXPERIMENT_DIRECTORY = join(
     dirname(abspath(dirname(sys.argv[0]))), 'experimentA')
 
