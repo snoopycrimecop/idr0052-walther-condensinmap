@@ -27,7 +27,7 @@ columns:
   - name: Comment [Image File Type]
     clientname: Image File Type
     include: yes
-  
+
 
   ######################################################################
   # mapr groups
@@ -56,7 +56,7 @@ columns:
         - name: Comment [Gene Identifier]
           clientname: Gene Identifier URL
           clientvalue: >
-		http://www.ensembl.org/id/{{ value|urlencode }}
+            http://www.ensembl.org/id/{{ value|urlencode }}
           include: yes
         - name: Comment [Gene Symbol]
           clientname: Gene Symbol
@@ -83,4 +83,3 @@ advanced:
       keys:
         - Gene Identifier
         - Gene Symbol
-
