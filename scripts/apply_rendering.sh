@@ -6,7 +6,7 @@
 omero=/opt/omero/server/OMERO.server/bin/omero
 experimentA=idr0052-walther-condensinmap/experimentA
 experimentB=idr0052-walther-condensinmap/experimentB
-experimentA_directory="$(dirname "$0")/../experimentA/"
+experimentA_directory="$(dirname "$0")/../experimentA/rendering_settings"
 experimentB_directory="$(dirname "$0")/../experimentB/rendering_settings"
 
 # Apply rendering settings to confocal datasets
@@ -15,7 +15,7 @@ $omero hql --ids-only --style csv -q "select d from ProjectDatasetLink l join l.
 cat raw_datasets | while read dataset
 do
     echo "Setting rendering for $dataset"
-    $omero render set $dataset $experimentA_directory/confocal.yml
+    $omero render set $dataset $experimentA_directory/raw.yml
 done
 
 
@@ -25,7 +25,7 @@ $omero hql --ids-only --style csv -q "select d from ProjectDatasetLink l join l.
 cat conc_datasets | while read dataset
 do
     echo "Setting rendering for $dataset"
-    $omero render set $dataset $experimentA_directory/concentration.yml
+    $omero render set $dataset $experimentA_directory/conc.yml
 done
 
 
