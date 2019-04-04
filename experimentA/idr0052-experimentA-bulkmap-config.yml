@@ -41,7 +41,7 @@ columns:
           include: yes
 
   - group:
-      namespace: openmicroscopy.org/mapr/cellline
+      namespace: openmicroscopy.org/mapr/cell_line
       columns:
         - name: Characteristics [Cell Line]
           clientname: Cell Line
@@ -76,7 +76,7 @@ advanced:
     - namespace: openmicroscopy.org/mapr/organism
       keys:
         - Organism
-    - namespace: openmicroscopy.org/mapr/cellline
+    - namespace: openmicroscopy.org/mapr/cell_line
       keys:
         - Cell Line
     - namespace: openmicroscopy.org/mapr/gene
