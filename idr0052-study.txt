@@ -36,7 +36,7 @@ Study License	CC-BY 4.0
 Study License URL	https://creativecommons.org/licenses/by/4.0/ 		
 Study Copyright	Walther et al.	
 Study Data Publisher	University of Dundee			
-Study Data DOI				
+Study Data DOI	https://doi.org/10.17867/10000123			
 				
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
@@ -46,7 +46,8 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 # Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment				
 				
 Experiment Number	1			
-Comment[IDR Experiment Name]	idr0052-walther-condensinmap/experimentA			
+Comment[IDR Experiment Name]	idr0052-walther-condensinmap/experimentA
+Experiment Data DOI	https://doi.org/10.17867/10000123a			
 Experiment Description	Genome-edited cells with homozygously mEGFP-tagged Condensin subunits and chromosomes stained by SiR-DNA were imaged every 90 s for a total of 60 min by 3D confocal microscopy, which was automatically triggered after prophase onset. Images were calibrated by FCS to convert fluorescence intensities into cellular protein concentration maps and cellular protein number maps.
 Experiment Size	5D Images: 	17082 files	Average Image Dimension (XYZCT): raw: 256 x 256 x 93 x 3 x 1, conc: 256 x 256 x 31 x 1, masks: 256 x 256 x 31 x 2 x 1 # Dimensions are per file, 31 z-slices per channel, one file per time point, 40 time points, channels are protein of interest, chromatin, cell outline	Total Tb: 0.126
 Experiment Example Images	
@@ -96,7 +97,8 @@ Processed Data Column Description
 Processed Data Column Link To Assay File	
 
 Experiment Number	2			
-Comment[IDR Experiment Name]	idr0052-walther-condensinmap/experimentB			
+Comment[IDR Experiment Name]	idr0052-walther-condensinmap/experimentB	
+Experiment Data DOI	https://doi.org/10.17867/10000123b		
 Experiment Description	FRAP experiments of Condensin-mEGFP subunits on the metaphase plate.
 Experiment Size	5D Images: 	Average Image Dimension (XYZCT): 128x128x9x3x[30-45]
 Experiment Example Images	
@@ -146,7 +148,8 @@ Processed Data Column Description
 Processed Data Column Link To Assay File					
 
 Experiment Number	3			
-Comment[IDR Experiment Name]	idr0052-walther-condensinmap/experimentC			
+Comment[IDR Experiment Name]	idr0052-walther-condensinmap/experimentC	
+Experiment Data DOI	https://doi.org/10.17867/10000123c		
 Experiment Description	Single Colour - Condensin subunits were immunostained (with an anti-GFP antibody), and mitotic cells with chromatids oriented in parallel to the focal plane were selected for imaging. DNA (Hoechst) and Condensins (mEGFP tag and anti-GFP immunostaining) were imaged by diffraction-limited microscopy, whereas immunostained Condensin was also imaged by STED microscopy.  Double Colour -  NCAPH2-mEGFP and NCAPH-Halo were immunostained respectively with anti-GFP (1:500; ab13970; Abcam) + goat secondary anti-chicken Alexa Fluor 594 (1;500; A-11042; Thermo Fisher Scientific) and anti-Halo (1:500; G9281; Promega) + anti-rabbit Abberior STAR RED then imaged by STED microscopy.
 Experiment Size	5D Images: 	Average Image Dimension (XYZCT): [89-324]x[102-286]x29	Total Mb: 450
 Experiment Example Images	
